@@ -12,6 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginTop="28dp"
+        android:onClick="viewPreviousScores"
         android:text="View Your Previous Scores"
         android:textAllCaps="false"
         android:textSize="24sp"
