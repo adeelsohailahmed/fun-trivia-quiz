@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Fun Trivia Quiz</string>
+    <string name="question_number">Question # %1$d</string>
 </resources>

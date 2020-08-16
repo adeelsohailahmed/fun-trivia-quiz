@@ -1,25 +1,26 @@
 {
-  "question": {
-    "number": 1,
-    "description": "What's the capital city of France?",
-    "answers": {
-      "option1": "London",
-      "option2": "New York",
-      "option3": "Paris",
-      "option4": "Belgium",
-      "answer": "Paris"
-    }
-  },
-
-  "question" : {
-    "number": 2,
-    "description": "Which musician was part of the famous band 'The Beatles'?",
-    "answers": {
-      "option1": "Paul McCartney",
-      "option2": "Elton John",
-      "option3": "Freddie King",
-      "option4": "Steve Vai",
-      "answer": "Paul McCartney"
-    }
-  }
+  "questions": [
+    {
+        "number": 1,
+        "description": "What's the capital city of France?",
+        "answers": {
+          "option1": "London",
+          "option2": "New York",
+          "option3": "Paris",
+          "option4": "Belgium",
+          "answer": "Paris"
+        }
+    },
+    {
+        "number": 2,
+        "description": "Which musician was part of the famous band 'The Beatles'?",
+        "answers": {
+          "option1": "Paul McCartney",
+          "option2": "Elton John",
+          "option3": "Freddie King",
+          "option4": "Steve Vai",
+          "answer": "Paul McCartney"
+        }
+      }
+  ]
 }
