@@ -56,6 +56,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="248dp"
+        android:onClick="startQuiz"
         android:text="Start"
         android:textAllCaps="false"
         android:textSize="24sp"

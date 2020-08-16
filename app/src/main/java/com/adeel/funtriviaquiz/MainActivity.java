@@ -18,11 +18,16 @@ public class MainActivity extends AppCompatActivity {
         finish(); // Close the app.
     }
 
-    public void viewPreviousScores(View view)
-    {
+    public void viewPreviousScores(View view) {
         Intent viewPreviousScores = new Intent();
         viewPreviousScores.setClass(this, ViewScoresActivity.class);
         startActivity(viewPreviousScores);
+    }
 
+    public void startQuiz(View view) {
+        Intent startQuiz = new Intent();
+        startQuiz.setClass(this, MainQuizActivity.class);
+        startActivity(startQuiz);
+        finish();
     }
 }
