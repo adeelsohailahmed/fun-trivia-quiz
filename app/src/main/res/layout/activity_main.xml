@@ -9,12 +9,13 @@
 
     <Button
         android:id="@+id/button_viewPreviousScores"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:onClick="viewPreviousScores"
         android:text="View Your Previous Scores"
         android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
@@ -23,53 +24,56 @@
 
     <Button
         android:id="@+id/button_start3"
-        android:layout_width="126dp"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="28dp"
         android:onClick="exit"
         android:text="Exit"
         android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button_viewPreviousScores"
-        app:layout_constraintVertical_bias="0.033" />
+        app:layout_constraintTop_toBottomOf="@+id/button_viewPreviousScores" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
         android:gravity="center"
         android:text="Fun Trivia Quiz"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.112" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button_start"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="248dp"
+        android:layout_marginTop="60dp"
         android:onClick="startQuiz"
         android:text="Start"
         android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="174dp"
+        android:layout_height="174dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/trivia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="361dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

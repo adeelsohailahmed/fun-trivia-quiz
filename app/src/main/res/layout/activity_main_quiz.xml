@@ -10,11 +10,11 @@
         android:id="@+id/textViewQuestionNumber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="64dp"
         android:text="@string/question_number"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -31,11 +31,10 @@
 
     <RadioGroup
         android:id="@+id/radioGroup"
-        android:layout_width="324dp"
-        android:layout_height="278dp"
-        android:layout_marginTop="41dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewQuestionDescription">
 
@@ -43,30 +42,34 @@
             android:id="@+id/radioButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RadioButton" />
+            android:text="RadioButton"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
     </RadioGroup>
 
     <Button
         android:id="@+id/buttonSubmitAnswer"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="64dp"
         android:enabled="false"

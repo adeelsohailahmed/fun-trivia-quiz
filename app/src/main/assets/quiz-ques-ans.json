@@ -21,6 +21,328 @@
           "option4": "Steve Vai",
           "answer": "Paul McCartney"
         }
+    },
+    {
+      "number": 3,
+      "description": "When was John Lennon murdered?",
+      "answers": {
+        "option1": "1985",
+        "option2": "1970",
+        "option3": "1960",
+        "option4": "1980",
+        "answer": "1980"
       }
+    },
+    {
+      "number": 4,
+      "description": "Which director is famous for films like 'Psycho', 'Vertigo', 'The Birds'?",
+      "answers": {
+        "option1": "Francis Ford Coppola",
+        "option2": "Alfred Hitchcock",
+        "option3": "Quentin Tarantino",
+        "option4": "Martin Scorsese",
+        "answer": "Alfred Hitchcock"
+      }
+    },
+    {
+      "number": 5,
+      "description": "Who is the author of the famous novel 'The Godfather'?",
+      "answers": {
+        "option1": "Nicholas Pileggi",
+        "option2": "Roald Dahl",
+        "option3": "Mario Puzo",
+        "option4": "Charles Brandt",
+        "answer": "Mario Puzo"
+      }
+    },
+    {
+      "number": 6,
+      "description": "Steve Carell starred in the following TV-Series: ",
+      "answers": {
+        "option1": "F.R.I.E.N.D.S",
+        "option2": "The 40 Year Old Virgin",
+        "option3": "The Office (US Series)",
+        "option4": "The Office (UK Series)",
+        "answer": "The Office (US Series)"
+      }
+    },
+    {
+      "number": 7,
+      "description": "Which country gifted the Statue of Liberty to United States?",
+      "answers": {
+        "option1": "France",
+        "option2": "Germany",
+        "option3": "Canada",
+        "option4": "Netherlands",
+        "answer": "France"
+      }
+    },
+    {
+      "number": 8,
+      "description": "Which instrument is the musician Brian May most famous for?",
+      "answers": {
+        "option1": "Piano",
+        "option2": "Vocal",
+        "option3": "Guitar",
+        "option4": "Drums",
+        "answer": "Guitar"
+      }
+    },
+    {
+      "number": 9,
+      "description": "Who was the first man to set foot on the moon?",
+      "answers": {
+        "option1": "Bob Ross",
+        "option2": "Edwin 'Buzz' Aldrin",
+        "option3": "Carl Sagan",
+        "option4": "Neil Armstrong",
+        "answer": "Neil Armstrong"
+      }
+    },
+    {
+      "number": 10,
+      "description": "Who composed the famous theme of 'The Godfather'?",
+      "answers": {
+        "option1": "Thomas Newman",
+        "option2": "Nino Rota",
+        "option3": "John Williams",
+        "option4": "Bernard Herrmann",
+        "answer": "Nino Rota"
+      }
+    },
+    {
+      "number": 11,
+      "description": "Who is the inventor of the World Wide Web?",
+      "answers": {
+        "option1": "Steve Jobs",
+        "option2": "Bill Gates",
+        "option3": "Dennis Ritchie",
+        "option4": "Tim Berners-Lee",
+        "answer": "Tim Berners-Lee"
+      }
+    },
+    {
+      "number": 12,
+      "description": "Apple Corps was founded by: ",
+      "answers": {
+        "option1": "Steve Wozniak",
+        "option2": "The Beatles",
+        "option3": "Bill Gates",
+        "option4": "Bill Nye",
+        "answer": "The Beatles"
+      }
+    },
+    {
+      "number": 13,
+      "description": "Who was the first woman to win the Nobel prize?",
+      "answers": {
+        "option1": "Elinor Ostrom",
+        "option2": "Marie Curie",
+        "option3": "Frances Arnold",
+        "option4": "Charles Brandt",
+        "answer": "Marie Curie"
+      }
+    },
+    {
+      "number": 14,
+      "description": "What is the first name of the famous musician Paul McCartney?",
+      "answers": {
+        "option1": "Paul",
+        "option2": "Richard",
+        "option3": "James",
+        "option4": "John",
+        "answer": "James"
+      }
+    },
+    {
+      "number": 15,
+      "description": "Who organized the famous benefit concert 'Live Aid'?",
+      "answers": {
+        "option1": "Bob Geldof and Midge Ure",
+        "option2": "Bob Dylan and Ravi Shankar",
+        "option3": "Bob Dylan and George Harrison",
+        "option4": "Ravi Shankar and Midge Ure",
+        "answer": "Bob Geldof and Midge Ure"
+      }
+    },
+    {
+      "number": 16,
+      "description": "Who wrote the famous novel 'War and Peace'?",
+      "answers": {
+        "option1": "Maxim Gorky",
+        "option2": "Leo Tolstoy",
+        "option3": "Fyodor Dostoevsky",
+        "option4": "Boris Pasternak",
+        "answer": "Leo Tolstoy"
+      }
+    },
+
+    {
+      "number": 17,
+      "description": "Who was the first Prime Minister of India?",
+      "answers": {
+        "option1": "Mohandas Karamchand Gandhi",
+        "option2": "Narendra Modi",
+        "option3": "Jawaharlal Nehru",
+        "option4": "Abul Kalam Azad",
+        "answer": "Jawaharlal Nehru"
+      }
+    },
+
+    {
+      "number": 18,
+      "description": "What is the national sport of the England?",
+      "answers": {
+        "option1": "Horse Racing",
+        "option2": "Football",
+        "option3": "Rugby",
+        "option4": "Cricket",
+        "answer": "Cricket"
+      }
+    },
+
+    {
+      "number": 19,
+      "description": "Who was the creator of C Programming Language?",
+      "answers": {
+        "option1": "Dennis Ritchie",
+        "option2": "Linus Torvalds",
+        "option3": "Bjarne Stroustrup",
+        "option4": "Guido van Rossum",
+        "answer": "Dennis Ritchie"
+      }
+    },
+
+    {
+      "number": 20,
+      "description": "Who starred in the famous 1976 movie 'Taxi Driver'?",
+      "answers": {
+        "option1": "Al Pacino",
+        "option2": "Robert De Niro",
+        "option3": "Marlon Brando",
+        "option4": "Ray Liotta",
+        "answer": "Robert De Niro"
+      }
+    },
+
+    {
+      "number": 21,
+      "description": "What does the word 'defenestration' mean?",
+      "answers": {
+        "option1": "act of jumping in through the window",
+        "option2": "act of planting a forest",
+        "option3": "act of cutting down a forest",
+        "option4": "act of throwing someone out of the window",
+        "answer": "act of throwing someone out of the window"
+      }
+    },
+
+    {
+      "number": 22,
+      "description": "When did the Freddie Mercury, lead singer of the famous band 'Queen', die?",
+      "answers": {
+        "option1": "1980",
+        "option2": "1991",
+        "option3": "1996",
+        "option4": "1985",
+        "answer": "1991"
+      }
+    },
+
+    {
+      "number": 23,
+      "description": "Which actor or actress has won the highest number of Oscars till date (2020)'?",
+      "answers": {
+        "option1": "Katharine Hepburn",
+        "option2": "Meryl Streep",
+        "option3": "Audrey Hepburn",
+        "option4": "Jack Nicholson",
+        "answer": "Katharine Hepburn"
+      }
+    },
+
+    {
+      "number": 24,
+      "description": "Which band wrote the famous song 'Stairway to Heaven'?",
+      "answers": {
+        "option1": "The Beatles",
+        "option2": "The Eagles",
+        "option3": "Led Zeppelin",
+        "option4": "Queen",
+        "answer": "Led Zeppelin"
+      }
+    },
+
+    {
+      "number": 25,
+      "description": "Which actor  has worked the most with the director Martin Scorsese?",
+      "answers": {
+        "option1": "Jack Nicholson",
+        "option2": "Al Pacino",
+        "option3": "Robert De Niro",
+        "option4": "Joe Pesci",
+        "answer": "Robert De Niro"
+      }
+    },
+
+    {
+      "number": 26,
+      "description": "Which company has created the famous 'Grand Theft Auto' video game franchise?",
+      "answers": {
+        "option1": "CD Projekt",
+        "option2": "Rockstar Games",
+        "option3": "Activision",
+        "option4": "BioWare",
+        "answer": "Rockstar Games"
+      }
+    },
+
+    {
+      "number": 27,
+      "description": "Who is the composer of the famous classical piece 'Für Elise'?",
+      "answers": {
+        "option1": "Ludwig van Beethoven",
+        "option2": "Frédéric Chopin",
+        "option3": "Dmitri Shostakovich",
+        "option4": "Wolfgang Amadeus Mozart",
+        "answer": "Ludwig van Beethoven"
+      }
+    },
+
+    {
+      "number": 28,
+      "description": "Which musician is associated with the famous song 'Layla'?",
+      "answers": {
+        "option1": "George Harrison",
+        "option2": "Bob Dylan",
+        "option3": "Gary Moore",
+        "option4": "Eric Clapton",
+        "answer": "Eric Clapton"
+      }
+    },
+
+    {
+      "number": 29,
+      "description": "Who is the author of the famous novel 'To Kill a Mockingbird'?",
+      "answers": {
+        "option1": "Margaret Mitchell",
+        "option2": "Harper Lee",
+        "option3": "John Steinbeck",
+        "option4": "F. Scott Fitzgerald",
+        "answer": "Harper Lee"
+      }
+    },
+
+    {
+      "number": 30,
+      "description": "Which instrument is the musician Joe Walsh famous for?",
+      "answers": {
+        "option1": "Guitar",
+        "option2": "Violin",
+        "option3": "Piano",
+        "option4": "Harmonica",
+        "answer": "Guitar"
+      }
+    }
   ]
 }

@@ -22,10 +22,10 @@ public class ViewScoresActivity extends AppCompatActivity {
 
     SharedPreferences previousScores;
     SharedPreferences.Editor editor;
-    ArrayAdapter<Integer> arrayAdapter;
+    ArrayAdapter<String> arrayAdapter;
     Map<String, ?> keys;
 
-    ArrayList<Integer> listItems = new ArrayList<>();
+    ArrayList<String> listItems = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,13 +65,13 @@ public class ViewScoresActivity extends AppCompatActivity {
             for (int i = 1; i <= keys.size(); i++) {
                 // First, we cast index i to String as get() accepts String values
                 // Then we cast the resultant value from any type (?) to Integer and add to arrayAdapter
-                arrayAdapter.add((Integer) keys.get(String.valueOf(i)));
+                arrayAdapter.add(i + ".    " + keys.get(String.valueOf(i)));
             }
         }
         else {
             // Either the previousScores file doesn't exist
             // Or they have been cleared by user, so just show 0
-            arrayAdapter.add(0);
+            arrayAdapter.add("1.    0");
         }
     }
 
