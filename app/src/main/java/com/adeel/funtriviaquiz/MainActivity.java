@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         Intent viewPreviousScores = new Intent();
         viewPreviousScores.setClass(this, ViewScoresActivity.class);
         startActivity(viewPreviousScores);
+        finish();
     }
 
     public void startQuiz(View view) {

@@ -6,6 +6,7 @@ import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -112,5 +113,14 @@ public class ViewScoresActivity extends AppCompatActivity {
                 .setPositiveButton("Yes", dOnClickListener)
                 .setNegativeButton("No", dOnClickListener)
                 .show();
+    }
+
+    // Go back to the main activity if user has pressed the back button
+    @Override
+    public void onBackPressed() {
+        Intent mainActivity = new Intent();
+        mainActivity.setClass(this, MainActivity.class);
+        startActivity(mainActivity);
+        finish();
     }
 }

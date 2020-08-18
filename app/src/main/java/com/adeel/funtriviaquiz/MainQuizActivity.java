@@ -228,4 +228,14 @@ public class MainQuizActivity extends AppCompatActivity {
         };
         countDownTimer.start();
     }
+
+
+    // Go back to the main activity if user has pressed the back button
+    @Override
+    public void onBackPressed() {
+        Intent mainActivity = new Intent();
+        mainActivity.setClass(this, MainActivity.class);
+        startActivity(mainActivity);
+        finish();
+    }
 }
